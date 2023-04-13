@@ -4,7 +4,7 @@ const app=express();
 
 app.get('/',(req,res)=>{
     console.log("Peticion recibida");
-    res.status(200).send("<h1>Hola bebe contigo no sirve la labia </h1>")
+    res.status(200).send("<h1>Hola beba como tu te llamas</h1>")
 
 })
 
